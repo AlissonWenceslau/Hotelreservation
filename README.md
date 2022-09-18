@@ -18,8 +18,21 @@
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você precisa compreender a linguagem Java e conceitos de POO (Encapsulamento, herança e polimorfismo)
-* Você precisa compreender classes **Calendar, Date SimpleDateFormat**
+* Você precisa compreender classes **Date SimpleDateFormat** e no enum **TimeUnit**
 * Você precisa compreender try-catch e bloco finally
+
+##Features
+TimeUnit é um enum disponível no pacote **java.util.concurrent**, ele basicamente disponibiliza métodos para converter o tempo em unidades de tempo.
+
+Neste projeto foi utilizado **TimeUnit** na classe **Reservation** para calcular a unidade de tempo em **dias** entre o ChekcIn e o CheckOut, conforme abaixo:
+
+```Java
+public long duration() {
+    long diff = checkOut.getTime() - checkIn.getTime();
+    
+    return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+}
+```
 
 <!--* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.-->
 
