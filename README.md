@@ -21,7 +21,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você precisa compreender classes **Date, SimpleDateFormat** e o enum **TimeUnit**
 * Você precisa compreender try-catch e bloco finally
 
-##Features
+## Features
 TimeUnit é um enum disponível no pacote **java.util.concurrent**, ele basicamente disponibiliza métodos para converter o tempo em unidades de tempo.
 
 Neste projeto foi utilizado **TimeUnit** na classe **Reservation** para calcular a unidade de tempo em **dias** entre o ChekcIn e o CheckOut, conforme abaixo:
