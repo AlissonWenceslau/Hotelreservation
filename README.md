@@ -2,13 +2,13 @@
 
 <img src="img/diagrama_classes.png" alt="Diagrama de Classes">
 
-> Trata-se de um mini projeto simples programado em **Java**, que visa criar exceções try-catch personalizadas, onde serão versionadas 3 modelos, sendo elas:
+> Trata-se de um mini projeto simples programado em **Java**, que visa criar exceções try-catch personalizadas, onde serão versionadas 3 soluções, sendo elas:
 
 - [x] Muito ruim
 - [ ] Ruim
 - [ ] Boa
 
-#### Obs: A caixa flegada acima, indicara o modelo atual 
+#### Obs: A caixa flegada acima, indicara o solução atual 
 <img src="img/funcionamento1.png" alt="Funcionamento">
 
 <img src="img/funcionamento2.png" alt="Funcionamento">
