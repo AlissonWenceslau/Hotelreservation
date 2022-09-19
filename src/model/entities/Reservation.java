@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Reservation {
 	
-	Integer roomNUmber;
+	Integer roomNumber;
 	Date checkIn;
 	Date checkOut;
 	
@@ -16,19 +16,19 @@ public class Reservation {
 		
 	}
 
-	public Reservation(Integer roomNUmber, Date checkIn, Date checkOut) {
+	public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
 		super();
-		this.roomNUmber = roomNUmber;
+		this.roomNumber = roomNumber;
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
 	}
 
 	public Integer getRoomNUmber() {
-		return roomNUmber;
+		return roomNumber;
 	}
 
 	public void setRoomNUmber(Integer roomNUmber) {
-		this.roomNUmber = roomNUmber;
+		this.roomNumber = roomNUmber;
 	}
 
 	public Date getCheckIn() {
@@ -54,7 +54,7 @@ public class Reservation {
 	public String toString() {
 		return 
 				"Rservation: "
-				+ roomNUmber
+				+ roomNumber
 				+ ", "
 				+"CheckIn: "
 				+sdf.format(checkIn)
