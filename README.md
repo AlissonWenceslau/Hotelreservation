@@ -19,6 +19,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você precisa compreender a linguagem Java e conceitos de POO (Encapsulamento, herança e polimorfismo)
 * Você precisa compreender classes **Date, SimpleDateFormat** e o enum **TimeUnit**
+* Você precisa compreender conceito de delegação
 * Você precisa compreender try-catch e bloco finally
 
 ## Features
