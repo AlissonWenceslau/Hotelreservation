@@ -5,8 +5,8 @@
 > Trata-se de um mini projeto simples programado em **Java**, que visa criar exceções try-catch personalizadas, onde serão versionadas 3 soluções, sendo elas:
 
 - [ ] Muito ruim - Lógica de validação no programa principal
-- [x] Ruim - Método retornando string
-- [ ] Boa - Tratamento de exceções
+- [ ] Ruim - Método retornando string
+- [x] Boa - Tratamento de exceções
 
 #### Obs: A caixa flegada acima, indicara o solução atual 
 <img src="img/funcionamento1.png" alt="Funcionamento">
