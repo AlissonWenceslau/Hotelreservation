@@ -56,7 +56,10 @@ public class Reservation {
 		if(checkIn.before(now) || checkOut.before(now)) {
 			//throw new IllegalArgumentException("Reservation dates for updates must be future dates");
 			throw new DomainException("Reservation dates for updates must be future dates");
-		}		
+		}	
+		if(!checkOut.after(checkIn)) {
+			throw new DomainException("CheckOut date must be after checkIn date");
+		}
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
 	}
